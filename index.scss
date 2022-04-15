@@ -1,5 +1,5 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: skyblue;
+$primary-color: rgb(45, 128, 253);
 $secondary-color: Red;
 
 body {
@@ -9,15 +9,26 @@ body {
 }
 
 h1 {
-    color: pink;
+    color: purple;
 }
 
-h2 {
-
-}
-
-h3{
+p{
     color: $secondary-color;
 }
 
+.banner {
+    border:0;
+    Width:100%;
+    background: yellow;
+}
 
+.container {
+    width:100%;
+}
+
+.section {
+    float:left;
+    border: 0;
+    width:50%;
+    background: white;
+}
