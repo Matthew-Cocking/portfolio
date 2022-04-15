@@ -1,0 +1,48 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: skyblue;
+$secondary-color: Red;
+$background-color: white;
+
+@mixin theme($theme: skyblue) {
+    background: $background-color;
+    color: black;
+}
+
+body {
+    border: 0;
+    @include theme;
+}
+
+#banner {
+    border: 0;
+    width: 100%;
+    background: $primary-color;
+
+    h3 {
+        color: purple;
+    }
+
+    p {
+        color: black;;
+    }
+}
+
+p {
+    color: $secondary-color;
+}
+
+
+#flexbox {
+    display: flex;
+    height: 25em;
+    column-gap: 3%;
+  }
+  
+  #flexbox > div {
+    border: 1px solid ;
+    background-color: $primary-color;
+    flex: auto;
+  }

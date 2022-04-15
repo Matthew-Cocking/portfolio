@@ -1,0 +1,33 @@
+body {
+  border: 0;
+  background: white;
+  color: black;
+}
+
+#banner {
+  border: 0;
+  width: 100%;
+  background: skyblue;
+}
+#banner h3 {
+  color: purple;
+}
+#banner p {
+  color: black;
+}
+
+p {
+  color: Red;
+}
+
+#flexbox {
+  display: flex;
+  height: 25em;
+  column-gap: 3%;
+}
+
+#flexbox > div {
+  border: 1px solid;
+  background-color: skyblue;
+  flex: auto;
+}
