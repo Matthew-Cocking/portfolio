@@ -9,15 +9,25 @@ body {
 }
 
 h1 {
-    color: pink;
+    color: purple;
 }
 
-h2 {
-
-}
-
-h3{
+p{
     color: $secondary-color;
 }
 
 
+.banner {
+    border:0;
+    Width:100%
+}
+
+.container {
+    width:100%;
+}
+
+.section {
+    border: 0;
+    width:50%;
+    background: white;
+}
