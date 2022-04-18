@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Matthew Cocking's Portfolio website hosted through GitHub Pages.\r Frequently updated with new personal projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Cocking/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthew-Cocking/portfolio/issues"
+  },
+  "homepage": "https://github.com/Matthew-Cocking/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
