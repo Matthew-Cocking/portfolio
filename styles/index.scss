@@ -6,9 +6,9 @@ $primary-color: #2a2a2a;
 $secondary-color: skyblue;
 $tertiary-color: white;
 
-@mixin theme($theme: skyblue) {
-    background: $primary-color;
-    color: black;
+@mixin theme($theme: $secondary-color) {
+    background: $secondary-color;
+    color: $primary-color;
 }
 
 html {
@@ -31,7 +31,11 @@ body {
     height: 100%;
 
     .nav {
-        margin-left: 41%;
+        justify-content: center;
+
+        a {
+            display: inline-block;
+        }
     }
 
     .introduction {
@@ -47,7 +51,7 @@ body {
 
         p {
             font-size: 1.5em;
-            color: white;
+            color: $tertiary-color;
             font-style: italic;
         }
     }
@@ -59,16 +63,19 @@ body {
     }
 
     .arrow_container {
+        justify-content: center;
         position: absolute;
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 7%;
         margin: 0px auto;
-        bottom: 50px;
-        margin-left: 50%;
+        left: 0;
+        right: 0;
+        bottom: 5px;
     }
 
     .chevron {
-        position: absolute;
+        position: fixed;
+        display: inline-block;
         width: 28px;
         height: 8px;
         opacity: 0;
@@ -141,5 +148,5 @@ body {
 }
 
 p {
-    color: $secondary-color;
+    color: $tertiary-color;
 }

@@ -11124,8 +11124,8 @@ html {
 
 body {
   border: 0;
-  background: #2a2a2a;
-  color: black;
+  background: skyblue;
+  color: #2a2a2a;
 }
 
 #banner {
@@ -11139,7 +11139,10 @@ body {
   height: 100%;
 }
 #banner .nav {
-  margin-left: 41%;
+  justify-content: center;
+}
+#banner .nav a {
+  display: inline-block;
 }
 #banner .introduction {
   padding-top: 23%;
@@ -11162,15 +11165,18 @@ body {
   height: 500px;
 }
 #banner .arrow_container {
+  justify-content: center;
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 7%;
   margin: 0px auto;
-  bottom: 50px;
-  margin-left: 50%;
+  left: 0;
+  right: 0;
+  bottom: 5px;
 }
 #banner .chevron {
-  position: absolute;
+  position: fixed;
+  display: inline-block;
   width: 28px;
   height: 8px;
   opacity: 0;
@@ -11225,5 +11231,5 @@ body {
 }
 
 p {
-  color: skyblue;
+  color: white;
 }
